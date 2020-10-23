@@ -2,9 +2,7 @@
   <artifact type="jar" name="zUnit">
     <output-path>$PROJECT_DIR$/out/artifacts/zUnit</output-path>
     <root id="archive" name="zUnit.jar">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" />
-      </element>
+      <element id="module-output" name="zUnit" />
     </root>
   </artifact>
 </component>
